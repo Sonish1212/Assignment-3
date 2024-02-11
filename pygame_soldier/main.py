@@ -13,7 +13,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = int(SCREEN_WIDTH * 0.8)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption('Shooter')
+pygame.display.set_caption('Gorkhali')
 
 #set framerate
 clock = pygame.time.Clock()
@@ -599,7 +599,7 @@ while run:
 				world_data = reset_level()
 				if level <= MAX_LEVELS:
 					#load in level data and create world
-					with open(f'level{level}_data.csv', newline='') as csvfile:
+					with open(f'level{level}_datas.csv', newline='') as csvfile:
 						reader = csv.reader(csvfile, delimiter=',')
 						for x, row in enumerate(reader):
 							for y, tile in enumerate(row):
