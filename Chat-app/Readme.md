@@ -1,24 +1,46 @@
-Chatbot is the application made using tkinter where we can communicate with each other connecting in a same server.
+***Question_number_1 (Tkinter Chat-app Application)***
 
-Here are two files present in chat bot server.py and chat.py 
+***Overview***
+This Tkinter Chat-app is designed with a focus on object-oriented programming principles, including multiple inheritance, encapsulation, polymorphism, and method overriding.
+The application facilitates communication between users in a room-based environment. The code structure is modular, ensuring clean and organized implementation.
 
-*IMPORTANT*
+***Features***
+Server-Client Architecture:
+Utilizes a server-client architecture allowing unlimited users to connect and chat in various rooms.
 
-Before running this file we have to understand that how can be run this file
+***Object-Oriented Programming Concepts:***
 
-Cause if we run chat file without server the file will crash
+***Encapsulation***: Bundles related functionality and data within classes for better organization.
 
-So first using terminal run server.py
+***Polymorphism***: Demonstrated through methods like send_message and receive_message tailored for server and client classes.
 
-Then open next terminal and run chat.py
-You can open as much terminal you want and run chat.py and see how the chat is working
+***Method Overriding***: Custom methods overridden in server and client classes based on specific requirements.
 
-A simple tkinter application is used 
+***Multiple Inheritance***: Inherits from Tkinter classes for GUI and socket-related classes for networking.
 
-Add your name firstly and join and type message then message will be print in the message box.
+***Unlimited Users and Chat Rooms:***
 
-*NOTE* 
+Users can join chat rooms without limitations, fostering multiple discussions simultaneously.
 
-Server file must be run first
+***Usage***
+Clone the repository: git clone https://github.com/Sonish1212/Assignment-3/tree/main/Chat-bot
+
+***Run the server script*:**
+First  we have to run the server.py file to establish the connection 
+python server.py
+After running the file the server is activated and we have to run client script
+***Run the client script:***
+python client.py
+Enter a username and select a chat room.
+
+Start chatting with other users in the same room.
+
+***Code Explanation***
+Server and Client Classes:
+-The Server and Client classes encapsulate server and client functionalities separately.
+-Polymorphism is evident in methods like send_message and receive_message implemented differently for server and client.
+
+***Socket Connections:***
+-Utilizes socket programming for communication, showcasing multiple inheritance for handling GUI and networking aspects.
 
 <img width="1300" alt="Screenshot 2024-02-09 at 11 10 30 PM" src="https://github.com/Sonish1212/Assignment-3/assets/69333078/130d0d2e-cbed-4eaf-ae50-a3c849525131">
