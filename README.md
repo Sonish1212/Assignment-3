@@ -1,10 +1,10 @@
 **Question_number_1**
 
-# (Tkinter Chat-app/chat-bot Application)
+# (Tkinter Chat Application)
 
 ## Overview
 
-This Tkinter Chat-app Application is designed with a focus on object-oriented programming principles, including multiple inheritance, encapsulation, polymorphism, and method overriding.
+This Tkinter Chat Application is designed with a focus on object-oriented programming principles, including multiple inheritance, encapsulation, polymorphism, and method overriding.
 The application facilitates communication between users in a room-based environment. The code structure is modular, ensuring clean and organized implementation.
 
 ## Features
